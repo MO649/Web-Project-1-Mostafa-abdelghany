@@ -47,6 +47,53 @@
             <td>5</td>
         </tr>
     </table>
+    <h2>🏀 Share Your Thoughts!</h2>
+    <form action="#" method="post">
+        
+        <!-- Name Input -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Email Input -->
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Favorite Player Dropdown -->
+        <label for="player">Favorite Player:</label>
+        <select id="player" name="player">
+            <option value="michael_jordan">Michael Jordan</option>
+            <option value="lebron_james">LeBron James</option>
+            <option value="kobe_bryant">Kobe Bryant</option>
+            <option value="stephen_curry">Stephen Curry</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <!-- Favorite Team Radio Buttons -->
+        <label>Favorite NBA Team:</label> <br>
+        <input type="radio" id="lakers" name="team" value="Lakers">
+        <label for="lakers">Los Angeles Lakers</label> <br>
+
+        <input type="radio" id="bulls" name="team" value="Bulls">
+        <label for="bulls">Chicago Bulls</label> <br>
+
+        <input type="radio" id="warriors" name="team" value="Warriors">
+        <label for="warriors">Golden State Warriors</label> <br>
+
+        <input type="radio" id="other" name="team" value="Other">
+        <label for="other">Other</label> <br><br>
+
+        <!-- Comment Box -->
+        <label for="comments">Why Do You Love Basketball?</label> <br>
+        <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Share your thoughts..."></textarea>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Feedback</button>
+
+    </form>
 
 </body>
 </html>
